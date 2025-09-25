@@ -1,0 +1,31 @@
+st.markdown(
+    """
+    <style>
+    /* Fundo geral */
+    .css-18e3th9 {
+        background-color: #f0f2f6;
+    }
+
+    /* Estilo dos botões */
+    .stButton>button {
+        background-color: #0072C6;
+        color: white;
+    }
+
+    /* Estilo das métricas */
+    .stMetric {
+        background-color: #0072C6 !important;
+        color: white !important;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    /* Cabeçalhos */
+    h2, h3 {
+        color: #0072C6;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
